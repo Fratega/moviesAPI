@@ -1,14 +1,14 @@
 ### Recuperar todas las películas
-GET http://localhost:3000/movies
+GET http://localhost:3001/movies
 
 ### Recuperar una película por id
-GET http://localhost:3000/movies/3
+GET http://localhost:3001/movies/3
 
 ### Borrar una película
-DELETE http://localhost:3000/movies/3
+DELETE http://localhost:3001/movies/3
 
 ### Crear una película con POST
-POST http://localhost:3000/movies
+POST http://localhost:3001/movies
 Content-Type: application/json
 
 {
