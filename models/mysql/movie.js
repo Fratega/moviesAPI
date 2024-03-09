@@ -8,7 +8,6 @@ const config = {
   database: 'moviesdb'
 }
 const connectionString = process.env.DATABASE_URL ?? config
-
 const connection = await mysql.createConnection(connectionString)
 
 export class MovieModel {
